@@ -20,5 +20,7 @@ author: Ke Ma, Shufan Wang
 
 Running the download code takes half to one day, we provide a zip file which contains all the raw files we downloaded from binance: https://drive.google.com/file/d/16lMA8q5Mpnr2Yedev_2EZeluZX5jgjtb/view?usp=share_link
 
-You can uncomment the last block in `project_main.ipynb` to compute the risks and mvp based on our merged dataframe `data/clean/whole_usdt_merge.pkl` (392 cryptocurrencies with 8000 hours)
+If you want to run on the cleaned and merged data, please download it from: https://drive.google.com/file/d/1qyD8EQ0Mi24Pc3s5lDVvYXpxaUiu6N-t/view?usp=sharing
+
+Then, you can uncomment the last block in `project_main.ipynb` to compute the risks and mvp based on our merged dataframe `data/clean/whole_usdt_merge.pkl` (392 cryptocurrencies with 8000 hours), or run the plot directly with our save rolling window output in `data/clean`.
 
